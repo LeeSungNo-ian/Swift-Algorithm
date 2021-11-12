@@ -8,4 +8,6 @@
 import Foundation
 
 var myChoicePick: Int = 0
+var computerChoicePick: Int = Int.random(in: 0...2)
+
 
