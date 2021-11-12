@@ -32,3 +32,28 @@ default:
     break
 }
 
+if myChoicePick == 0 {
+    if computerChoicePick == 0 {
+        print("비겼습니다.")
+    } else if computerChoicePick == 1 {
+        print("졌습니다.")
+    } else {
+        print("이겼습니다.")
+    }
+} else if myChoicePick == 1 {
+    if computerChoicePick == 0 {
+        print("졌습니다.")
+    } else if computerChoicePick == 1 {
+        print("비겼습니다.")
+    } else {
+        print("이겼습니다.")
+    }
+} else {
+    if computerChoicePick == 0 {
+        print("졌습니다.")
+    } else if computerChoicePick == 1 {
+        print("이겼습니다.")
+    } else {
+        print("비겼습니다.")
+    }
+}
