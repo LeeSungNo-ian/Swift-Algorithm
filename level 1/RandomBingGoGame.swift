@@ -8,3 +8,4 @@
 import Foundation
 
 var computerRandomNumber: Int = Int.random(in: 1...10)
+var myNumber: Int = 4
