@@ -12,3 +12,6 @@ let (a, b) = (n[0], n[1])
 
 let c = String(repeating: "*", count: a)
 
+for i in 1...b{
+    print(c)
+}
