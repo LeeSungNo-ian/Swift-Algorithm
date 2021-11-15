@@ -15,4 +15,7 @@ func coverPhoneNumber(_ phone_number: String) -> String {
             answerNumber += "*"
         }
     }
+
+    let start = phone_number.index(phone_number.endIndex, offsetBy: -4)
+    let end = phone_number.index(phone_number.endIndex, offsetBy: -1)
 }
