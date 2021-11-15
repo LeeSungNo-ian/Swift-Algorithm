@@ -8,5 +8,5 @@
 import Foundation
 
 func coverPhoneNumber(_ phone_number: String) -> String {
-    
+    var answerNumber = ""
 }
