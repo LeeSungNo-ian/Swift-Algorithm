@@ -9,4 +9,10 @@ import Foundation
 
 func coverPhoneNumber(_ phone_number: String) -> String {
     var answerNumber = ""
+    
+    if phone_number.count > 4 {
+        for _ in 1...phone_number.count-4 {
+            answerNumber += "*"
+        }
+    }
 }
