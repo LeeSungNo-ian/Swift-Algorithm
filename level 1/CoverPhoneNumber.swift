@@ -18,4 +18,8 @@ func coverPhoneNumber(_ phone_number: String) -> String {
 
     let start = phone_number.index(phone_number.endIndex, offsetBy: -4)
     let end = phone_number.index(phone_number.endIndex, offsetBy: -1)
+    let substring = phone_number[start...end]
+    let realSubstring = String(substring)
+    
+    return answerNumber + realSubstring
 }
